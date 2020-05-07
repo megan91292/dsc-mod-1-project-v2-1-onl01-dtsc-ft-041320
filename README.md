@@ -62,12 +62,12 @@ Images:
 
 
 <h2>Question 1: Is there a Correlation between Budget and Revenue?</h2>
-###### Sub Question - How has this Changed over the decades?
+<h3> How has this Changed over the decades?</h3>
 
-#####Findings:
+<h5> Findings:</h5>
 With a correlation coefficient of 0.75, there is a strong relationship between budget and revenue. It is also interesting to note that this relationship has strengthened throughout the last 4 decades. Going from 0.36 in 1980s to 0.90 in the 2010s!!
 
-#####Recommendations:
+<h5> Recommendations:</h5>
 Given this information, it is clear that the key is to spend spend spend when it comes to revenue generation is all you are worried about.
 
 <img src ='images/Question1a'>
@@ -76,38 +76,39 @@ Given this information, it is clear that the key is to spend spend spend when it
 
 
 
-<h2>Question 2: Does ROI change as the budget changes?</h2>
-###### Looking at Budgets under $100 million
+<h2>Question 2: Does ROI vary by Budget Category?</h2>
+<h6> Looking at Budgets under $100 million</h6>
 <img src ='images/Question2'>
 
-#####Findings:
+<h5> Findings:</h5>
 ROI is different depending on budget. Notably, a bigger budget does not always result in a bigger return. 
 For Example, the 40-50 million category returns less on average than the 10-20 million category
 
-#####Recommendations:
-Look at releasing movies in July and November.
+<h5> Recommendations:</h5>
+You should carefully choose your budget when looking for the best return. For example, if you have a budget of 100 million, you should choose to only spend 80-90 to get a better return.
 
-<h2>Question 3: Does the performance of a movie change based on the day/month </h2>of release?
-###### Looking at median Gross
+<h2>Question 3: Does the performance of a movie change based on the day/month of release?</h2>
+<h6> Looking at median Gross</h6>
 
-#####Findings:
+<h5>Findings:</h5>
 The Best Month on average for gross revenue has changed throughout the decades. July has stayed constant in the top 2. Notably, December releases have become less and less profitable.
-#####Recommendations:
+<h5> Recommendations:</h5>
 Focus on Animation, Adventure and Mystery films  as these yield the highest return.
 Steer clear of Documentaries, as they are loss making, on average.
 
+<h4> Distribution for Worldwide gross by release month</h4>
 <img src ='images/Question3'> 
 
-
+<h4> Average Gross Revenue by release month over the past 4 decades </h4>
 <img src ='images/Question3b'>
 
-## Question 4: An Exloration of Genres
+<h2>Question 4: An Exloration of Genres</h2>
 #### How do gross revenue and ROI change across genres?
 
-#####Findings:
+<h5> Findings:</h5>
 It is clear from the graph below that ROI varies massively by genre. 
 
-#####Recommendations:
+<h5> Recommendations:</h5>
 Focus on Animation, Adventure and Mystery films  as these yield the highest return.
 Steer clear of Documentaries, as they are loss making, on average.
 
@@ -119,16 +120,16 @@ Steer clear of Documentaries, as they are loss making, on average.
 
 
 
-## Question 5: An Exploration of the Ratings
-###### Is there a Correlation between MetaScores, Runtime and IMDB Ratings?
+<h2>Question 5: An Exploration of the Ratings</h2>
+<h6> Is there a Correlation between MetaScores, Runtime and IMDB Ratings?</h6>
 
-##### Findings:
+<h5> Findings:</h5>
 We found that runtimes have no affect on Ratings. Also interesting, that there is a high correlation between imdb ratings and metascores!!
 
 <img src ='images/Question5'>
 
 
-# Future Analysis
+<h2>Future Analysis</h2>
 * Create a better way of sorting through genres, when movies have multiple genres, potentially using sub categories
 * Explore the effects the movie crew can have on ROI. In terms of directors ,actors etc.
 * Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?
