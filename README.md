@@ -1,6 +1,6 @@
 # An Analysis of Movie Success at the Box Office
 
-<img src ='images/readme image.jpeg' width =150%>
+<img src ='images/readme image.jpeg' width =150%/>
 
 
 ## Purpose
