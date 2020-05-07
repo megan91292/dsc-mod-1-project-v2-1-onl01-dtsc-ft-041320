@@ -1,5 +1,6 @@
 # An Analysis of Movie Success at the Box Office
 
+<img src ='images/readme image.jpeg' width =150%>
 
 
 <h2>Purpose</h2>
@@ -105,10 +106,10 @@ Steer clear of Documentaries, as they are loss making, on average.
 <h2>Question 4: An Exloration of Genres</h2>
 #### How do gross revenue and ROI change across genres?
 
-<h5> Findings:</h5>
+<h5>Findings:</h5>
 It is clear from the graph below that ROI varies massively by genre. 
 
-<h5> Recommendations:</h5>
+<h5>Recommendations:</h5>
 Focus on Animation, Adventure and Mystery films  as these yield the highest return.
 Steer clear of Documentaries, as they are loss making, on average.
 
@@ -121,7 +122,7 @@ Steer clear of Documentaries, as they are loss making, on average.
 
 
 <h2>Question 5: An Exploration of the Ratings</h2>
-<h6> Is there a Correlation between MetaScores, Runtime and IMDB Ratings?</h6>
+<h3>Is there a Correlation between MetaScores, Runtime and IMDB Ratings?</h3>
 
 <h5> Findings:</h5>
 We found that runtimes have no affect on Ratings. Also interesting, that there is a high correlation between imdb ratings and metascores!!
@@ -130,7 +131,10 @@ We found that runtimes have no affect on Ratings. Also interesting, that there i
 
 
 <h2>Future Analysis</h2>
-* Create a better way of sorting through genres, when movies have multiple genres, potentially using sub categories
-* Explore the effects the movie crew can have on ROI. In terms of directors ,actors etc.
-* Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?
-* Complete sentiment analysis on Rotten Tomato reviews
+<ul>
+<li>Create a better way of sorting through genres, when movies have multiple genres, potentially using sub categories</li>
+<li>Explore the effects the movie crew can have on ROI. In terms of directors ,actors etc.</li>
+<li>Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?</li>
+<li>Complete sentiment analysis on Rotten Tomato reviews</li>
+</ul>
+
