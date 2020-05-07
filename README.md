@@ -2,13 +2,13 @@
 
 
 
-## Purpose
+<h2>Purpose</h2>
 The purpose of this project is to investigate what has the biggest impact on the success of a movie at the box office. 
 
 
 
 
-## Data Description
+<h2>Data Description</h2>
 The Repo is split up into 4 folders and the main section
 
 ```
@@ -61,7 +61,7 @@ Images:
 
 
 
-## Question 1: Is there a Correlation between Budget and Revenue?
+<h2>Question 1: Is there a Correlation between Budget and Revenue?</h2>
 ###### Sub Question - How has this Changed over the decades?
 
 #####Findings:
@@ -76,7 +76,7 @@ Given this information, it is clear that the key is to spend spend spend when it
 
 
 
-## Question 2: Does ROI change as the budget changes?
+<h2>Question 2: Does ROI change as the budget changes?</h2>
 ###### Looking at Budgets under $100 million
 <img src ='images/Question2'>
 
@@ -87,7 +87,7 @@ For Example, the 40-50 million category returns less on average than the 10-20 m
 #####Recommendations:
 Look at releasing movies in July and November.
 
-## Question 3: Does the performance of a movie change based on the day/month of release?
+<h2>Question 3: Does the performance of a movie change based on the day/month </h2>of release?
 ###### Looking at median Gross
 
 #####Findings:
