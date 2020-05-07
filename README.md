@@ -1,7 +1,6 @@
 # An Analysis of Movie Success at the Box Office
 
-<img src ='images/readme image.jpeg' width ="150%"/>
------
+
 
 ## Purpose
 The purpose of this project is to investigate what has the biggest impact on the success of a movie at the box office. 
