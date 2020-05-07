@@ -1,160 +1,136 @@
-# Module 1 Final Project
+# An Analysis of Movie Success at the Box Office
 
-## Introduction
-
-In this lesson, we'll review all of the guidelines and specifications for the final project for Module 1.
-
-## Objectives
-
-You will be able to:
-
-* Describe all required aspects of the final project for Module 1
-* Describe all required deliverables
-* Describe what constitutes a successful project
-* Describe what the experience of the project review should be like
-
-## Final Project Summary
-
-You've made it all the way through the first module of this course - take a minute to celebrate your awesomeness!
-
-![awesome](https://raw.githubusercontent.com/learn-co-curriculum/dsc-mod-1-project-v2-1/master/awesome.gif)
-
-All that remains in Module 1 is to put our newfound data science skills to use with a final project! You should expect this project to take between 20 and 25 hours of solid, focused effort. If you're done way quicker, go back and dig in deeper or try some of the optional "level up" suggestions. If you're worried that you're going to get to 30 hrs and still not even have the data imported, reach out to an instructor in Slack ASAP to get some help!
-
-## The Project
-
-Microsoft sees all the big companies creating original video content, and they want to get in on the fun. They have decided to create a new movie studio, but the problem is they don’t know anything about creating movies. They have hired you to help them better understand the movie industry.
-Your team is charged with doing data analysis and creating a presentation that explores what type of films are currently doing the best at the box office. You must then translate those findings into actionable insights that the CEO can use when deciding what type of films they should be creating.
-
-# The Dataset
-
-You may scrape or make API calls to get additional data, but included in the repository (in the folder `zippedData`) is some movie-related data from:
-* Box Office Mojo
-* IMDB
-* Rotten Tomatoes
-* TheMovieDB.org
-
-# The Deliverables
-
-For online students, there will be five deliverables for this project (Note: On-campus students may have different requirements, please speak with your instructor):
-
-1. A well documented **Jupyter Notebook** containing any code you've written for this project and comments explaining it. This work will need to be pushed to your GitHub repository in order to submit your project.  
-2. An organized **README.md** file in the GitHub repository that describes the contents of the repository. This file should be the source of information for navigating through the repository.
-3. A short **Keynote/PowerPoint/Google Slides presentation** (delivered as a PDF export) giving a high-level overview of your methodology and recommendations for non-technical stakeholders. Make sure to also add and commit this pdf of your non-technical presentation to your repository with a file name of presentation.pdf.
-4. **[A Blog Post](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1)**
-5. A **Video Walkthrough** of your non-technical presentation. Some common video recording tools used are Zoom, Quicktime, and Nimbus. After you record your presentation, publish it on a service like YouTube or Google Drive, you will need a link to the video to submit your project.
-
-Note: On-campus students may have different requirements, please speak with your instructor.
-
-### Jupyter Notebook Must-Haves
-
-For this project, your Jupyter Notebook should meet the following specifications:
-
-#### Organization/Code Cleanliness
-
-* The notebook should be well organized, easy to follow,  and code should be commented where appropriate.  
-    * Level Up: The notebook contains well-formatted, professional looking markdown cells explaining any substantial code.  All functions have docstrings that act as professional-quality documentation
-* The notebook is written for technical audiences with a way to both understand your approach and reproduce your results. The target audience for this deliverable is other data scientists looking to validate your findings.
-
-#### Visualizations & EDA
-
-* Your project contains at least 4 meaningful data visualizations, with corresponding interpretations. All visualizations are well labeled with axes labels, a title, and a legend (when appropriate)  
-* You pose at least 3 meaningful questions and answer them through EDA.  These questions should be well labeled and easy to identify inside the notebook.
-    * **Level Up**: Each question is clearly answered with a visualization that makes the answer easy to understand.   
-* Your notebook should contain 1 - 2 paragraphs briefly explaining your approach to this project.
+<img src ='images/readme image.jpeg' width =150%>
 
 
-### Non-Technical Presentation Must-Haves
-
-Another deliverable should be a Keynote, PowerPoint or Google Slides presentation delivered as a pdf file in your fork of this repository with the file name of `presentation.pdf` detailing the results of your project.  Your target audience is non-technical people interested in using your findings to make decisions for creating movies.
-
-Your presentation should:
-
-* Contain between 5 - 10 professional-quality slides.  
-    * **Level Up**: The slides should use visualizations whenever possible, and avoid walls of text.
-* Take no more than 5 minutes to present.   
-* Avoid technical jargon and explain the results in a clear, actionable way for non-technical audiences.   
-
-### Blog Post Must-Haves
-
-Refer back to the [Blogging Guidelines](https://github.com/learn-co-curriculum/dsc-welcome-blogging-v2-1) for the technical requirements and blog ideas.
+## Purpose
+The purpose of this project is to investigate what has the biggest impact on the success of a movie at the box office. 
 
 
 
-## The Process
-(Note: On-campus students may have different processes, please speak with your instructor)
 
-### 1. Getting Started
+## Data Description
+The Repo is split up into 4 folders and the main section
 
-Please start by reviewing this document. If you have any questions, please ask them in Slack ASAP so (a) we can answer the questions and (b) so we can update this repository to make it clearer.
+```
+Main Section - Contains .ipynb files of all questions
+* Question 1 - Correlation between Budget and Revenue.ipynb
+* Question 2 - Does ROI change based on budget categories.ipynb
+* Question 3 - Does the day of the week and month of release affect gross revenue?.ipynb
+* Question 4- ROI & Gross Revenue by Genre.ipynb
+* Question 5 - Top 250 Grossing films of last decade.ipynb
 
-Be sure to let the instructor team know when you’ve started working on a project, either by reaching out over Slack or, if you are in a full-time or part-time cohort, by connecting with your Cohort Lead in your weekly 1:1. If you’re not sure who to reach out to, post in the #online-ds-sp-000 channel in Slack.
-
-Once you're done with the 10 sections in module 1, please start on the project. Do that by forking this repository, cloning it locally, and working in the `student.ipynb` file. Make sure to also add and commit a pdf of your presentation to the repository with a file name of `presentation.pdf`.
-
-### 2. The Project Review
-
-_Note: On-campus students may have different review processes, please speak with your instructor._
-
-> **When you start on the project, please also reach out to an instructor immediately to schedule your project review** (if you're not sure who to schedule with, please ask in Slack!)
-
-#### What to expect from the Project Review
-
-Project reviews are focused on preparing you for technical interviews. Treat project reviews as if they were technical interviews, in both attitude and technical presentation *(sometimes technical interviews will feel arbitrary or unfair - if you want to get the job, commenting on that is seldom a good choice)*.
-
-The project review is comprised of a 45 minute 1:1 session with one of the instructors. During your project review, be prepared to:
-
-#### 1. Deliver your PDF presentation to a non-technical stakeholder.
-In this phase of the review (~10 mins) your instructor will play the part of a non-technical stakeholder that you are presenting your findings to. The presentation  should not exceed 5 minutes, giving the "stakeholder" 5 minutes to ask questions.
-
-In the first half of the presentation (2-3 mins), you should summarize your methodology in a way that will be comprehensible to someone with no background in data science and that will increase their confidence in you and your findings. In the second half (the remaining 2-3 mins) you should summarize your findings and be ready to answer a couple of non-technical questions from the audience. The questions might relate to technical topics (sampling bias, confidence, etc) but will be asked in a non-technical way and need to be answered in a way that does not assume a background in statistics or machine learning. You can assume a smart, business stakeholder, with a non-quantitative college degree.
-
-#### 2. Go through the Jupyter Notebook, answering questions about how you made certain decisions. Be ready to explain things like:
-    * "How did you pick the question(s) that you did?"
-    * "Why are these questions important from a business perspective?"
-    * "How did you decide on the data cleaning options you performed?"
-    * "Why did you choose a given method or library?"
-    * "Why did you select those visualizations and what did you learn from each of them?"
-    * "Why did you pick those features as predictors?"
-    * "How would you interpret the results?"
-    * "How confident are you in the predictive quality of the results?"
-    * "What are some of the things that could cause the results to be wrong?"
-
-Think of the first phase of the review (~30 mins) as a technical boss reviewing your work and asking questions about it before green-lighting you to present to the business team. You should practice using the appropriate technical vocabulary to explain yourself. Don't be surprised if the instructor jumps around or sometimes cuts you off - there is a lot of ground to cover, so that may happen.
-
-If any requirements are missing or if significant gaps in understanding are uncovered, be prepared to do one or all of the following:
-* Perform additional data cleanup, visualization, feature selection, modeling and/or model validation
-* Submit an improved version
-* Meet again for another Project Review
-
-What won't happen:
-* You won't be yelled at, belittled, or scolded
-* You won't be put on the spot without support
-* There's nothing you can do to instantly fail or blow it
-
-**Please note: We need to receive the URL of your repository at least 24 hours before and please have the project finished at least 3 hours before your review so we can look at your materials in advance.**
+Cleandata:
+* genredf.csv
+* movierevenue.csv
+* randomgenreallocated.csv
+* Revenue_Budget_Genre
 
 
-## Submitting your Project
+Data Cleaning Notebooks:
+Contains notebooks where datacleaning was done
+* Using TMDB API to get Genre names and also making table.ipynb
+* Cleaning Data Movie Revenue.ipynb
+* Web Scraping and Cleaning.ipynb
 
- You’re almost done! In order to submit your project for review, include the following links to your work in the corresponding fields on the right-hand side of Learn.
+ZippedData:
+* bom.movie_gross.csv
+* imdb.name.basics.csv
+* imdb.title.akas.csv
+* imdb.title.basics.csv
+* imdb.title.crew.csv.gz
+* imdb.title.principals.csv
+* imdb.title.ratings.csv.gz
+* rt.movie_info 2.tsv
+* rt.movie_info.tsv
+* rt.movie_info.tsv.gz
+* rt.review.tsv
+* rt.reviews.csv
+* rt.reviews.tsv
+* rt.reviews.tsv.gz
+* tmdb.movies.csv
+* tmdb.movies.csv.gz
+* tn.movie_budgets.csv
+* tn.movie_budgets.csv.gz
 
- 1. **GitHub Repo:** Now that you’ve completed your project in Jupyter Notebooks, push your work to GitHub and paste that link to the right. (If you need help doing so, review the resources [here](https://docs.google.com/spreadsheets/d/1CNGDhjcQZDRx2sWByd2v-mgUOjy13Cd_hQYVXPuzEDE/edit#gid=0).)
-_Reminder: Make sure to also add and commit a pdf of your non-technical presentation to the repository with a file name of presentation.pdf._
-2. **Blog Post:** Include a link to your blog post.
-3. **Record Walkthrough:** Include a link to your video walkthrough.
+Images:
+* Contains array of images that are use in the powerpoint pdf
 
- Hit "I'm done" to wrap it up. You will receive an email in order to schedule your review with your instructor.
-
-## Grading Rubric
-
-Online students can find a PDF of the grading rubric for the project [here](https://github.com/learn-co-curriculum/dsc-mod-1-project-v2-1/blob/master/module1_project_rubric.pdf). On-campus students may have different review processes, please speak with your instructor.
+```
 
 
-## Summary
 
-The end of module projects and project reviews are a critical part of the program. They give you a chance to both bring together all the skills you've learned into realistic projects and to practice key "business judgement" and communication skills that you otherwise might not get as much practice with.
 
-The projects are serious and important. They are not graded, but they can be passed and they can be failed. Take the project seriously, put the time in, ask for help from your peers or instructors early and often if you need it, and treat the review as a job interview and you'll do great. We're rooting for you to succeed and we're only going to ask you to take a review again if we believe that you need to. We'll also provide open and honest feedback so you can improve as quickly and efficiently as possible.
 
-Finally, this is your first project. We don't expect you to remember all of the terms or to get all of the answers right. If in doubt, be honest. If you don't know something, say so. If you can't remember it, just say so. It's very unusual for someone to complete a project review without being asked a question they're unsure of, we know you might be nervous which may affect your performance. Just be as honest, precise and focused as you can be, and you'll do great!
+## Question 1: Is there a Correlation between Budget and Revenue?
+###### Sub Question - How has this Changed over the decades?
+
+#####Findings:
+With a correlation coefficient of 0.75, there is a strong relationship between budget and revenue. It is also interesting to note that this relationship has strengthened throughout the last 4 decades. Going from 0.36 in 1980s to 0.90 in the 2010s!!
+
+#####Recommendations:
+Given this information, it is clear that the key is to spend spend spend when it comes to revenue generation is all you are worried about.
+
+<img src ='images/Question1a'>
+<img src ='images/Question1b'>
+
+
+
+
+## Question 2: Does ROI change as the budget changes?
+###### Looking at Budgets under $100 million
+<img src ='images/Question2'>
+
+#####Findings:
+ROI is different depending on budget. Notably, a bigger budget does not always result in a bigger return. 
+For Example, the 40-50 million category returns less on average than the 10-20 million category
+
+#####Recommendations:
+Look at releasing movies in July and November.
+
+## Question 3: Does the performance of a movie change based on the day/month of release?
+###### Looking at median Gross
+
+#####Findings:
+The Best Month on average for gross revenue has changed throughout the decades. July has stayed constant in the top 2. Notably, December releases have become less and less profitable.
+#####Recommendations:
+Focus on Animation, Adventure and Mystery films  as these yield the highest return.
+Steer clear of Documentaries, as they are loss making, on average.
+
+<img src ='images/Question3'> 
+
+
+<img src ='images/Question3b'>
+
+## Question 4: An Exloration of Genres
+#### How do gross revenue and ROI change across genres?
+
+#####Findings:
+It is clear from the graph below that ROI varies massively by genre. 
+
+#####Recommendations:
+Focus on Animation, Adventure and Mystery films  as these yield the highest return.
+Steer clear of Documentaries, as they are loss making, on average.
+
+<img src ='images/Question4a'>
+
+
+
+<img src ='images/Question4b'>
+
+
+
+## Question 5: An Exploration of the Ratings
+###### Is there a Correlation between MetaScores, Runtime and IMDB Ratings?
+
+##### Findings:
+We found that runtimes have no affect on Ratings. Also interesting, that there is a high correlation between imdb ratings and metascores!!
+
+<img src ='images/Question5'>
+
+
+# Future Analysis
+* Create a better way of sorting through genres, when movies have multiple genres, potentially using sub categories
+* Explore the effects the movie crew can have on ROI. In terms of directors ,actors etc.
+* Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?
+* Complete sentiment analysis on Rotten Tomato reviews
