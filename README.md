@@ -10,10 +10,10 @@ The purpose of this project is to investigate what has the biggest impact on the
 
 
 <h2>Data Description</h2>
-The Repo is split up into 4 folders and the main section
+The Repo is split up into 5 folders 
 
 ```
-Main Section - Contains .ipynb files of all questions
+Questions:
 * Question 1 - Correlation between Budget and Revenue.ipynb
 * Question 2 - Does ROI change based on budget categories.ipynb
 * Question 3 - Does the day of the week and month of release affect gross revenue?.ipynb
@@ -30,8 +30,10 @@ Cleandata:
 Data Cleaning Notebooks:
 Contains notebooks where datacleaning was done
 * Using TMDB API to get Genre names and also making table.ipynb
+* Randomly Allocated Genre.ipynb
 * Cleaning Data Movie Revenue.ipynb
 * Web Scraping and Cleaning.ipynb
+
 
 ZippedData:
 * bom.movie_gross.csv
@@ -88,23 +90,24 @@ For Example, the 40-50 million category returns less on average than the 10-20 m
 <h5> Recommendations:</h5>
 You should carefully choose your budget when looking for the best return. For example, if you have a budget of 100 million, you should choose to only spend 80-90 to get a better return.
 
-<h2>Question 3: Does the performance of a movie change based on the day/month of release?</h2>
+<h2>Question 3: Does the performance of a movie change based on the month of release?</h2>
 <h6> Looking at median Gross</h6>
 
 <h5>Findings:</h5>
 The Best Month on average for gross revenue has changed throughout the decades. July has stayed constant in the top 2. Notably, December releases have become less and less profitable.
+
 <h5> Recommendations:</h5>
-Focus on Animation, Adventure and Mystery films  as these yield the highest return.
-Steer clear of Documentaries, as they are loss making, on average.
+Look at releasing movies in July and November.
+
 
 <h4> Distribution for Worldwide gross by release month</h4>
-<img src ='images/Question3'> 
+<img src ='images/Question3a'> 
 
 <h4> Average Gross Revenue by release month over the past 4 decades </h4>
-<img src ='images/Question3b'>
+<img src ='images/Question3'>
 
 <h2>Question 4: An Exloration of Genres</h2>
-#### How do gross revenue and ROI change across genres?
+<h3>How do gross revenue and ROI change across genres?</h3>
 
 <h5>Findings:</h5>
 It is clear from the graph below that ROI varies massively by genre. 
@@ -117,7 +120,7 @@ Steer clear of Documentaries, as they are loss making, on average.
 
 
 
-<img src ='images/Question4b'>
+<img src ='images/Q4'>
 
 
 
@@ -125,16 +128,17 @@ Steer clear of Documentaries, as they are loss making, on average.
 <h3>Is there a Correlation between MetaScores, Runtime and IMDB Ratings?</h3>
 
 <h5> Findings:</h5>
-We found that runtimes have no affect on Ratings. Also interesting, that there is a high correlation between imdb ratings and metascores!!
+We found that runtimes have no correlation with Ratings.
+Also interesting, that there is a high correlation between imdb ratings and metascores, suggesting that critics and individuals have similiar views
 
 <img src ='images/Question5'>
 
 
 <h2>Future Analysis</h2>
-<ul>
+<ol>
 <li>Create a better way of sorting through genres, when movies have multiple genres, potentially using sub categories</li>
-<li>Explore the effects the movie crew can have on ROI. In terms of directors ,actors etc.</li>
+<li>Explore the world of Netflix, Amazon Prime etc to see how they have changed the game in terms of film, tv shows and documentaries</li>
 <li>Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?</li>
-<li>Complete sentiment analysis on Rotten Tomato reviews</li>
-</ul>
+<li>Explore the effects of ratings in more detail! Especially how movies with poor ratings can still perform very well at the box office</li>
+</ol>
 
