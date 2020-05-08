@@ -125,10 +125,11 @@ Steer clear of Documentaries, as they are loss making, on average.
 
 
 <h2>Question 5: An Exploration of the Ratings</h2>
-<h3>Is there a Correlation between MetaScores and Gross Revenue, IMDB Ratings for the top 250 grossing films at the US box office in the last decade?</h3>
+<h3>Is there a Correlation between MetaScores and Gross Revenue, runtime for the top 250 grossing films at the US box office in the last decade?</h3>
 
 <h5> Findings:</h5>
-We found that revenue have no correlation with Ratings.
+We found that revenue and runtime have no correlation with Ratings.
+Correlation coefficients of 0.26 and 0.21 respectively
 Also interesting, that there is a high correlation between imdb ratings and metascores, suggesting that critics and individuals have similiar views.
 
 The average Metascore for these films is only 62. It is interesting that only 60% of these films received positive reviews. With 17 of these films receiving unfavourable reviews. Only 22 films gained a Metascore of over 81, achieving must see status.
