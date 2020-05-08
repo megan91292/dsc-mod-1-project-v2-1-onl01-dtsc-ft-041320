@@ -68,7 +68,7 @@ Images:
 <h3> How has this Changed over the decades?</h3>
 
 <h5> Findings:</h5>
-With a correlation coefficient of 0.75, there is a strong relationship between budget and revenue. It is also interesting to note that this relationship has strengthened throughout the last 4 decades. Going from 0.36 in 1980s to 0.90 in the 2010s!!
+With a correlation coefficient of 0.75, there is a strong relationship between budget and revenue. It is also interesting to note that this relationship has strengthened throughout the last 4 decades. Going from 0.39 in 1980s to 0.79 in the 2010s!!
 
 <h5> Recommendations:</h5>
 Given this information, it is clear that the key is to spend spend spend when it comes to revenue generation is all you are worried about.
@@ -104,7 +104,7 @@ Look at releasing movies in July and November.
 <img src ='images/Question3a'> 
 
 <h4> Average Gross Revenue by release month over the past 4 decades </h4>
-<img src ='images/Question3'>
+<img src ='images/Question3b'>
 
 <h2>Question 4: An Exloration of Genres</h2>
 <h3>How do gross revenue and ROI change across genres?</h3>
@@ -125,14 +125,22 @@ Steer clear of Documentaries, as they are loss making, on average.
 
 
 <h2>Question 5: An Exploration of the Ratings</h2>
-<h3>Is there a Correlation between MetaScores, Runtime and IMDB Ratings?</h3>
+<h3>Is there a Correlation between MetaScores and Gross Revenue, IMDB Ratings for the top 250 grossing films at the US box office in the last decade?</h3>
 
 <h5> Findings:</h5>
-We found that runtimes have no correlation with Ratings.
-Also interesting, that there is a high correlation between imdb ratings and metascores, suggesting that critics and individuals have similiar views
+We found that revenue have no correlation with Ratings.
+Also interesting, that there is a high correlation between imdb ratings and metascores, suggesting that critics and individuals have similiar views.
 
-<img src ='images/Question5'>
+The average Metascore for these films is only 62. It is interesting that only 60% of these films received positive reviews. With 17 of these films receiving unfavourable reviews. Only 22 films gained a Metascore of over 81, achieving must see status.
 
+<h5> Deeper Dive </h5>
+
+Let’s look at the Grown-ups franchise, created by Adam Sandler. The first film, released in 2010, received a Metascore of only 30, meaning it received generally unfavourable reviews from the critics. This didn’t stop its success at the box office though, taking home 162m at the US Box office, ranking 148th for the decade. The sequel, Grown-ups 2, received even worse reviews, with a Metascore of 19, meaning critics voiced their overwhelming dislike for the film. Despite this, it still grossed $133 million at the US box office, ranking 189th for the decade.!
+
+<img src ='images/Q5'> 
+
+
+<img src = 'images/meta.jpg '>
 
 <h2>Future Analysis</h2>
 <ol>
@@ -140,5 +148,6 @@ Also interesting, that there is a high correlation between imdb ratings and meta
 <li>Explore the world of Netflix, Amazon Prime etc to see how they have changed the game in terms of film, tv shows and documentaries</li>
 <li>Explore the effect awards have on ROI. Do films that win more awards have a higher ROI?</li>
 <li>Explore the effects of ratings in more detail! Especially how movies with poor ratings can still perform very well at the box office</li>
+<li> Explore the affects of a director or actor on a film </li>
 </ol>
 
